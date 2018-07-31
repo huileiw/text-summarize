@@ -10,7 +10,7 @@ report_dir_path = './reports'
 model_dir_path = './models'
 
 summarizer = Seq2SeqSummarizer(hps)
-summarizer.fit(load_weights=False, epochs=20)
+summarizer.fit(load_weights=False, epochs=10)
 
 # history = summarizer.fit(load_weights=False, epochs=100)
 
